@@ -11,7 +11,7 @@ class Marca(models.Model):
     nome = models.CharField(max_length=50)
 
     def __str__(self):
-        return self.nome.captalize()
+        return self.nome
 
 
 class Carro(models.Model):
